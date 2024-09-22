@@ -65,7 +65,11 @@ body {
 .error {
     animation: shake .1s linear 5;
 }
-
+@media (max-width: 450px) {
+    .container{
+        width: 350px;
+    }
+}
 @keyframes shake {
     0% {
         transform: translateX(0);

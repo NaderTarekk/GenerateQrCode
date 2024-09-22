@@ -23,8 +23,7 @@ function generateQRCode() {
     ErrorMsg.style.display = 'none';
 
     const qrcode = new QRCode(qrCodeContainer, {
-        // text: text.value + " is invited",
-        text: "http://facebook.com/?" + text.value,
+        text: text.value + " is invited",
         width: 200,
         height: 200,
     });
